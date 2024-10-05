@@ -28,7 +28,7 @@ second tab: `cd bungee && sudo java -jar bungee.jar`
 ## Making Server Public
 Great! Now, you need to forward ports  `8081` and `25565` and navigate to your servers public ip [server-ip:8081]. The server welcome page should be displayed. Congrats on running your own server!
 ## Playing with friends
-navigate to folder web, right click, and upload assets.epk, classes.js, classes.js.map, and index.html
-<b>you can't open files localy<b>
+navigate to folder web, right click, and upload assets.epk, classes.js, classes.js.map, and index.html.
+<b>you can't open files localy. I you see "file://" you did it wrong. you have to upload to the http server and access via internet, otherwise the code does't work.<b>
 ## Installing Plugins
 In order to install plugins, navigate to `server > plugins`. You will need to clone the initial [plugin-name.jar] file as well as creating a separate directory in the plugins folder in order to store the additional data. Then just restart the server and the plugin should be running!
